@@ -80,7 +80,7 @@ public class workFlow {
 	}
 	
 	/**
-	 * Method takes in the applicant’s alien number and adds their form to the workflow process
+	 * Method takes in the applicant’s form number and the current status of their form in the workflow process and adds their form to the next workflow process
 	 * called by dataEntry when a form is made and a dependentAddition object is added to the review stack
 	 * called by Reviewer to add a dependentAddition object to the approval stack
 	 * @param alienNumber
